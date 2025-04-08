@@ -1,3 +1,8 @@
+#Description: Given an integer array nums, return all the lonely numbers in the array. 
+# A lonely number is a number that appears exactly once in the array and does not have any adjacent numbers (i.e., its value minus 1 and its value plus 1) in the array.
+#Input: an integer array nums
+#Ouput: an integer array of lonely numbers
+
 def findLonely(nums):
         list_lonely=[] 
         num_status={} #a hashmap to store the numer and its status
