@@ -1,3 +1,9 @@
+#Description: Given an integer x, return true if x is a palindrome, and false otherwise.
+#A palindrome is a number that remains the same when its digits are reversed.
+
+#Input: an integer 
+#Output: a boolean value indicating whether the integer is a palindrome
+
 def isPalindrome(x):
         """
         :type x: int
