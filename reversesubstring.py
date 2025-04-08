@@ -1,3 +1,7 @@
+#Description: Reverse the strings in each pair of matching parentheses, starting from the innermost one.
+#Input: a string that consists of lower case English letters and brackets.
+#Output: a reversed string 
+
 def reverseParentheses(s):
     stack=[]
     for char in s:
