@@ -1,3 +1,9 @@
+# Description: This function finds the path from the root to a given node in a zigzag binary tree.
+# A zigzag binary tree is a binary tree where the values of the nodes at each level are arranged in a zigzag pattern.
+
+#Input: A label of a node in a zigzag binary tree.
+#Output: The path from the root to the node with that label.
+
 def pathInZigZagTree(label):
         result=[]
         level=0
