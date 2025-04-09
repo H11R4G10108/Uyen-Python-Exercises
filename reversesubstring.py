@@ -9,7 +9,7 @@ def reverseParentheses(s):
     for char in s:
         if char == ')':
             temp = []
-            while stack and stack[-1] != '(':
+            while stack and stack[-1] != '(': #the last character in the stack is not an open bracket
                 temp.append(stack.pop())
             #pop will return the character we remove, so when we append it to temp, we are reversing the order of the characters
             stack.pop() #pop the open bracket
