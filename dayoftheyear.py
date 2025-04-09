@@ -45,7 +45,7 @@ print(dayOfYear(date23))  # Output: 60
 def dayOfYear2(date):
     year, month, day = map(int, date.split('-'))
     months = [0, 31, 59 ,90, 120, 151, 181, 212, 243, 273, 304, 334] #list of days in a year when a specific month ends
-    if month > 2 and (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)): #check leaps year only when the date is past jan
+    if month > 2 and (year % 4 == 0 and (year % 100 != 0 or year % 400 == 0)): #check leaps year only when the date is past feb
         day+=1
     return months[month - 1] + day
 
