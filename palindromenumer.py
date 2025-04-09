@@ -5,7 +5,7 @@ Input: an integer
 Output: a boolean value indicating whether the integer is a palindrome
 """
 
-#ver1
+"""ver1"""
 def isPalindrome(x):
         if x<0: return False # negative numbers are not palindromes
         if x==0: return True # 0 is a palindrome
@@ -16,12 +16,11 @@ def isPalindrome(x):
         else:
             return False
         
-# Test cases
 print(isPalindrome(121))  # True
 print(isPalindrome(-121)) # False
 print(isPalindrome(10))   # False
 
-#ver2
+"""ver2"""
 def isPalindrome2(x):
     if x<0: return False # negative numbers are not palindromes
     if x==0: return True # 0 is a palindrome
@@ -32,7 +31,7 @@ def isPalindrome2(x):
         phannguyen=phannguyen//10
         reverse=reverse*10+phandu
     return reverse==x # check if the reversed number is equal to the original number
-# Test cases
+
 print(isPalindrome2(121))  # True
 print(isPalindrome2(-121)) # False
 print(isPalindrome2(10))   # False
